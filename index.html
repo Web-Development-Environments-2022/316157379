@@ -107,6 +107,7 @@
      <h1><span>ans</span></h1>
     <br>
 <table border="1" bgcolor="beige" align=center cellpadding=10 cellspacing="0" bordercolor="#111111" width="100%" dir="rt1">
+  <tr><p<p style="background-color: yellow"></p> שאלה 1 </p>  </tr>
   <tr>
     <td  width="25%">הבדל שלישי-חיפוש</td>
     <td width="25%">הבדל שני-פרסום</td>
@@ -133,21 +134,32 @@
     <td width="25%">web3</td>
 
   </tr>
+</table>
+<br/>
+
+<table border="1" bgcolor="beige" align=center cellpadding=10 cellspacing="0" bordercolor="#111111" width="100%" dir="rt1">
+  <tr><p<p style="background-color: yellow"></p> שאלה 2 </p>  </tr>
+
   <tr>
-    <td width="25%"> בחיפוש ל המילים הימורי כדורגל,<br>
-      הדור הראשון יציג לנו דפי מידע על הימורים וכדורגל <br>
-      הדור השני יציג לנו את אתרי ההימורים <br>
-      והדור השלישי ימליץ לנו על הימור  שקשור בקבוצה אותה אנחנו אוהדים</td>
-    <td width="25%">פרסום באתר וואלה:<br>
-      בדור הראשון וואלה היו מפרסמים מה שדעתם הגולשים היו רוים לראות<br>
-      בדור השני וואל היו מפרסמים תוכן של אנשים אחרים <br>
-      בדור השלישי כניסה לאתר וואלה מראה לך פרסומות שרלוונטיות באופן ישיר אליך, מבלי שיש יותר מדי התערבות של האתר בתוכן הפרסומות</td>
-    <td width="25%">בחיפוש של המילים  כאב בצד הימני <br>
-      ,יראה לנו דפי מידע-web1<br>
-      הדור השני יציג לנו דפי מידע של קופת החולים שלנו <br> 
-        והדור השלישי ימליץ לנו להתקשר לאמבולנס
+    <td width="25%"> WEB3 </td>
+    <td width="25%"> WEB2 </td>
+    <td width="25%"> WEB1 </td>
+    <td width="25%"></td>
+  </tr>
+  <tr>
+    <td width="25%"> 
+      המנוע חיפוש יחזיר לנו תוצאות  לפי ההעדפות של המשתמש והמאפיינים שלו, לדוגמא: מי שאוהד את ביתר ירושלים יקבל את האתר של ביתר כאופציה ראושנה
+      ,מי שנכנס הרבה לאתרי הימורים יקבל אתרי היומורים כאופציות ראשונות
+      ומי שמתעניין יותר במוזיקה יקבל שירים על כדורגל כאופציות ראשונות
+    </td>
+    <td width="25%">
+      נשתמש במנוע חיפוש שיחזיר את כל האתרים בהם  "כדורגל" מופיע,התוצאות יוצג לפי האלגוריתם של מנוע החיפוש - כמו
+      <br> PAGERANK
+    </td>
+    <td width="25%">
+      ידרוש מאיתנו לדעת את הכתובת שקשורה לכדורגל שאנחנו רוצים להגיע אליה
       </td>
-    <td width="25%">example</td>
+    <td width="25%">בחיפוש: כדורגל</td>
   </tr>
 </table>
 <br/>
@@ -162,9 +174,11 @@
     <form action="mailto:avichaie@post.bgu.ac.il" method="post" enctype="text/plain">
         <h3><span>Name:</span></h3>
         <input class="A1" type="text" name="name"><br>
-       <h3><span>Mail:</span></h3><br>
+        <h3><span>Mail:</span></h3><br>
+        <input class="A1" type="text" name="title"><br>
+        <h3><span>Title:</span></h3><br>
         <input class="A1" type="text" name="mail"><br>
-       <h3><span>Comment</span></h3><br>
+        <h3><span>Comment</span></h3><br>
         <textarea class="A2" id="comment" type="text" name="comment" rows="5"></textarea><br>
         <input type="submit" value="Send">
         <input type="reset" value="Reset">
